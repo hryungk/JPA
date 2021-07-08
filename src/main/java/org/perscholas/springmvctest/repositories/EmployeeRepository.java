@@ -17,7 +17,7 @@ public class EmployeeRepository {
 			e.printStackTrace();
 		}
 		
-		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("Seattle_SpringMVC");
+		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("SpringMVC_Test");
 		EntityManager entityManager = emfactory.createEntityManager();
 		Employee employee = entityManager.find(Employee.class, id);
 		entityManager.close();

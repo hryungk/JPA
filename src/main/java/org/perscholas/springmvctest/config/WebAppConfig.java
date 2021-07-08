@@ -8,7 +8,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("org.perschholas.springmvctest")
+@ComponentScan("org.perscholas.springmvctest")
 public class WebAppConfig {
 	@Bean
 	InternalResourceViewResolver viewResolver() {
