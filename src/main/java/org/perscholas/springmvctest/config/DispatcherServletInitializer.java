@@ -1,4 +1,4 @@
-package org.perschholas.springmvctest.config;
+package org.perscholas.springmvctest.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
