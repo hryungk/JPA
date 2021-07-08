@@ -1,4 +1,4 @@
-package org.perschholas.springmvctest.controllers;
+package org.perscholas.springmvctest.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
