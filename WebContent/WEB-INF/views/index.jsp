@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/seattlespringmvc.css">
 <title>Index Page</title>
 </head>
 <body>
@@ -11,10 +12,18 @@
 	<form action="./search" method="POST">
 		<div>
 			<label>Enter Employee number</label>
-			<input type="text" name="employeeNumber">
-			<input type="submit" value="Search">
+			<input type="text" name="employeeNumber" />			
 		</div>
+		<div>
+			<label>Date</label>
+			<input type="date" name="dateInput" />
+		</div>
+		<input type="submit" value="Search">
 	</form>
-	<p>Name: ${employee.firstName } ${employee.lastName }</p>
+	<p>Name: <span>${employee.firstName } ${employee.lastName }</span></p>
+	<a href="home">Home</a>	
+	<!-- Alternatively, ${pageContext.request.contextPath } provides the relative path 
+	to the app (in this case, "springmvcbasic") -->
+	<a href="${pageContext.request.contextPath }/home">Home</a> 
 </body>
 </html>

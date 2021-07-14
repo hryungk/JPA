@@ -8,5 +8,9 @@
 </head>
 <body>
 	<h1>Welcome to the Home Page!</h1>
+	
+	<!-- ${pageContext.request.contextPath } provides the relative path 
+	to the app (in this case, "springmvcbasic") -->
+	<a href="${pageContext.request.contextPath }/">Index</a> 
 </body>
 </html>
